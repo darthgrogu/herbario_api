@@ -10,4 +10,4 @@ class Tree(models.Model):
     longitude = models.FloatField(blank=True, null=True)
 
     def __str__(self):
-        return self.code
+        return self.accession
