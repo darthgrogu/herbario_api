@@ -6,4 +6,4 @@ class TreeSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Tree
-        fields = ['id', 'code', 'latitude', 'longitude', 'species']
+        fields = ['id', 'accession', 'familyname', 'calcfullname', 'vernacularname', 'latitude', 'longitude']
